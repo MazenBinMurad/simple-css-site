@@ -1,249 +1,118 @@
 body {
-  margin: 0px;
+  margin: 0rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
-.brown1 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
+.top {
+  position: relative;
+  background-color: #e4f9f5;
+  padding-top: 6.25rem;
 }
-.yellow1 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 200px;
-  top: 200px;
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  line-height: 2em;
 }
-.brown2 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 400px;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
 }
-.yellow2 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 600px;
-  top: 200px;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
-.brown3 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 800px;
+a {
+  color: #11999e;
 }
-.yellow3 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 1000px;
-  top: 200px;
+.Pro {
+  text-decoration: underline;
 }
-.brown4 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
+.top-cloud {
   position: absolute;
-  left: 1200px;
+  right: 25rem;
+  bottom: 28.6875rem;
+  left: 64.375rem;
+  bottom: 40.125rem;
 }
-.yellow4 {
-  width: 148px;
-  height: 200px;
-  background-color: yellow;
+.bottom-cloud {
   position: absolute;
-  left: 1400px;
-  top: 200px;
+  right: 62.5rem;
 }
-.bronw5 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 0px;
-  top: 400px;
+.Anaa {
+  width: 12.5rem;
 }
-.brown6 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 400px;
-  top: 400px;
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.btn {
+  line-height: 4;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.brown7 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 800px;
-  top: 400px;
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
-.brown8 {
-  width: 200px;
-  height: 200px;
-  background-color: brown;
-  position: absolute;
-  left: 1200px;
-  top: 400px;
+hr {
+  border-style: dotted none none;
+  height: 0px;
+  width: 5%;
+  border-color: #a2b5bb;
+  border-top-style: dotted;
+  border-width: 5px;
 }
-.yellow5 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 200px;
-  top: 600px;
+.underline {
+  margin-top: 30px;
+  background-color: #66bfbf;
+  height: 40%;
+  padding: 50px 0 20px;
 }
-.yellow6 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 600px;
-  top: 600px;
+a {
+  text-decoration: none;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
 }
-.yellow7 {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 1000px;
-  top: 600px;
+a:hover {
+  color: #eaf6f6;
 }
-.yellow8 {
-  width: 148px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  left: 1400px;
-  top: 600px;
-}
-.black1 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  left: 200px;
-}
-.black2 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  left: 600px;
-}
-.black3 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  left: 1000px;
-}
-.black4 {
-  width: 148px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  left: 1400px;
-}
-.black5 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 200px;
-}
-.black6 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 200px;
-  left: 400px;
-}
-.black7 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 200px;
-  left: 800px;
-}
-.black8 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 200px;
-  left: 1200px;
-}
-.black9 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 400px;
-  left: 200px;
-}
-.black10 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 400px;
-  left: 600px;
-}
-.black11 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 400px;
-  left: 1000px;
-}
-.black12 {
-  width: 148px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 400px;
-  left: 1400px;
-}
-.black13 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 600px;
-}
-.black14 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 600px;
-  left: 400px;
-}
-.black15 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 600px;
-  left: 800px;
-}
-.black16 {
-  width: 200px;
-  height: 200px;
-  background-color: #1b2430;
-  position: absolute;
-  top: 600px;
-  left: 1200px;
+.copyright {
+  color: #eaf6f6;
+  font-size: o.75rem;
+  padding: 20px 0px;
 }
